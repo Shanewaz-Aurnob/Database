@@ -139,7 +139,7 @@ Database/
 ## 🕘 Previous Version Information
 
 - **Original Project Name:** CUSAS (Class Attendance System)
-- **Original Repository:** https://github.com/aurnob101/CUSAS
+- **Original Repository:** https://github.com/Shanewaz-Aurnob/CUSAS
 - **Base Technologies:** PHP, HTML/CSS, JavaScript
 - **Original Folder Name:** cusas
 
