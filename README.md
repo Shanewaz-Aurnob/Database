@@ -60,6 +60,88 @@ The project includes **Dompdf** library for PDF report generation:
 - **PHP 7.1 or higher**
 - **Web browser** (Chrome, Firefox, Safari, Edge)
 
+**Install XAMPP:
+
+Download from Apache Friends
+Install and start Apache and MySQL services
+Configure the project:
+
+Place the cloned folder in your XAMPP htdocs directory
+Rename or configure the folder path accordingly
+Setup Database:
+
+Create a new MySQL database for the project
+Import the database schema (if provided)
+Update database connection credentials in the configuration file
+Access the application:
+
+Open your browser and navigate to: http://localhost/Database/index.php
+Or adjust the URL based on your folder name in htdocs
+Usage
+For Students
+Log in with your student credentials
+View available courses
+Submit attendance for active sessions
+Monitor your attendance percentage
+Download your attendance records if available
+For Teachers
+Log in with your teacher credentials
+Navigate to your assigned courses
+Create new class sessions
+Mark attendance for each session
+Download attendance reports in PDF format
+Review attendance statistics and trends
+For Administrators
+Log in with administrator credentials
+Create and manage courses
+Assign teachers to courses
+Manage user accounts
+View institution-wide attendance reports
+Generate comprehensive analytics
+Project Structure
+Code
+Database/
+├── index.php                 # Main entry point
+├── config/                   # Configuration files
+├── classes/                  # PHP classes
+├── pages/                    # Application pages
+├── assets/                   # CSS, JavaScript, images
+├── dompdf/                   # PDF generation library
+├── database/                 # Database schema and migrations
+└── README.md                 # This file
+Previous Version Information
+Original Project Name: CUSAS (Class Attendance System)
+
+Original Repository: https://github.com/aurnob101/CUSAS
+Previous Implementation: Web-based attendance management system
+Base Technologies: PHP, HTML/CSS, JavaScript
+Previous Folder: cusas
+Contributing
+This project was developed collaboratively by:
+
+Shanewaz Aurnob - Lead Developer
+Raisa Nuzhat - Database Design & Documentation
+Ratri Barua - Frontend Development
+Ramisa Zahara Matin - Testing & QA
+Future Enhancements
+ Mobile application for iOS and Android
+ Biometric attendance integration
+ Email notifications for attendance alerts
+ Advanced analytics and data visualization
+ API for third-party integrations
+ Multi-language support
+ SMS notifications
+ QR code-based attendance
+Known Limitations
+Current PDF generation has some layout constraints (inherited from Dompdf)
+CSS Flexbox and Grid layouts have limited support in PDF reports
+Large file uploads may require server configuration adjustments
+License
+This project is part of educational coursework and is shared for reference purposes.
+
+Support & Contact
+For questions, issues, or contributions, please contact the development team or create an issue in the repository.**
+
 ### Setup Steps
 
 1. **Clone the repository**:
