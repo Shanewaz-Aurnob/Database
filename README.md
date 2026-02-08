@@ -1,40 +1,38 @@
-# Smart Attendance System
+# Database Repository
 
-A web-based smart attendance system that allows students to submit their attendance, teachers to create sessions for classes, and administrators to manage courses and view attendance reports.
+## Overview
+This repository contains the source code and resources for the Database project, which aims to provide a robust solution for managing and manipulating data efficiently.
+
+## Project Description
+The Database project is designed to offer a comprehensive and user-friendly interface for database management. The project supports various data storage solutions and ensures high performance and reliability.
 
 ## Features
+- Easy-to-use interface for data management.
+- Support for multiple database systems.
+- Advanced querying capabilities.
+- Robust data security features.
+- Comprehensive documentation and tutorials.
 
-- Student Attendance Submission: Students can submit their attendance for classes.
-- Session Creation: Teachers can create sessions for their classes.
-- Attendance Reports: Teachers and administrators can download attendance reports in PDF format.
-- Course Management: Administrators can create courses and assign teachers to them.
-- Attendance Tracking: Administrators can view attendance records for each class session.
-- Percentage Calculation: Students can view their attendance percentage.
+## Previous Details
+This section gives an overview of the previous versions and updates made to the project, showcasing its evolution and improvements over time.
 
-## Installation
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shanewaz-Aurnob/Database.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Database
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-1. Clone the repository: `git clone https://github.com/aurnob101/CUSAS`
-2. install XAMPP 
-3. connect with localhost 
-
-
-## Usage
-
-1. Access the website at `http://localhost/cusas/index.php` in your browser.
-2. Students can log in and submit their attendance.
-3. Teachers can create sessions, manage courses, and download attendance reports.
-4. Administrators can create courses, assign teachers, and view attendance records.
-
-## Technologies Used
-
-- PHP
-- HTML/CSS
-- JavaScript
-
-## Contributors
-
-- Shanewaz Aurnob 
-- Raisa Nuzhat
-- Ratri Barua
-- Ramisa Zahara Matin 
-
+## Contributor Information
+This project is maintained by Shanewaz Aurnob. Contributions to the project are welcome! Feel free to open issues or submit pull requests based on your ideas and improvements.
