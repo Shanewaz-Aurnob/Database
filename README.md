@@ -1,105 +1,128 @@
 # 📚 Smart Attendance System
 
-## Overview
+A comprehensive **web-based Smart Attendance System** designed to streamline attendance management in educational institutions through role-based access, automation, and detailed reporting.
 
-This is a comprehensive web-based **Smart Attendance System** designed to streamline the attendance management process in educational institutions. The system provides a role-based interface for students, teachers, and administrators to efficiently manage class attendance, generate reports, and track attendance metrics.
+---
 
-## Project Description
+## 📌 Overview
 
-A web-based smart attendance system that allows students to submit their attendance, teachers to create sessions for classes, and administrators to manage courses and view detailed attendance reports. Built with a focus on ease of use and comprehensive reporting capabilities, this system reduces manual attendance tracking and provides real-time insights into student attendance patterns.
+The Smart Attendance System provides dedicated interfaces for **Students**, **Teachers**, and **Administrators** to efficiently manage class attendance, monitor attendance metrics, and generate professional reports. The system minimizes manual work and offers real-time insights into attendance patterns.
 
-### Key Objectives
+---
 
-- **Automate attendance tracking** for educational institutions
-- **Reduce manual paperwork** and administrative overhead
-- **Provide real-time attendance insights** to teachers and administrators
-- **Enable students** to monitor their own attendance status
-- **Generate comprehensive attendance reports** in PDF format
+## 🎯 Project Objectives
 
-## Features
+- Automate attendance tracking for educational institutions
+- Reduce manual paperwork and administrative overhead
+- Provide real-time attendance insights
+- Enable students to monitor their own attendance status
+- Generate comprehensive attendance reports in **PDF format**
+
+---
+
+## ✨ Key Features
 
 ### 👨‍🎓 Student Features
-- **Attendance Submission**: Students can easily submit their attendance for each class session
-- **Attendance Tracking**: View personal attendance records across all enrolled courses
-- **Percentage Calculation**: Monitor real-time attendance percentage for each course
-- **Session History**: Access historical attendance data
+- Submit attendance for active class sessions
+- View attendance history across enrolled courses
+- Monitor real-time attendance percentage
+- Access session-wise attendance records
 
 ### 👨‍🏫 Teacher Features
-- **Session Creation**: Create class sessions and manage attendance for enrolled courses
-- **Attendance Management**: Track which students attended each class
-- **Report Generation**: Download comprehensive attendance reports in PDF format
-- **Course Management**: Manage assigned courses and student enrollments
-- **Analytics**: View attendance trends and statistics
+- Create and manage class sessions
+- Track student attendance per session
+- Generate and download attendance reports (PDF)
+- View attendance statistics and trends
+- Manage assigned courses and enrollments
 
 ### 👨‍💼 Administrator Features
-- **Course Management**: Create and manage courses across the institution
-- **Teacher Assignment**: Assign teachers to specific courses
-- **Attendance Records**: View and manage attendance records for all class sessions
-- **System Administration**: Oversee all system activities and user management
-- **Comprehensive Reports**: Generate institution-wide attendance analytics
+- Create and manage courses
+- Assign teachers to courses
+- View and manage all attendance records
+- Oversee system-wide user activities
+- Generate institution-wide attendance analytics
 
-## Technologies Used
+---
 
-- **Backend**: PHP
-- **Frontend**: HTML5, CSS3, JavaScript
-- **PDF Generation**: Dompdf (HTML to PDF converter)
-- **Database**: MySQL/MariaDB (recommended)
-- **Server**: Apache (via XAMPP)
+## 🛠 Technologies Used
 
-### Dependencies
+- **Backend:** PHP  
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Database:** MySQL / MariaDB  
+- **PDF Generation:** Dompdf (HTML to PDF)  
+- **Server:** Apache (via XAMPP)
 
-The project includes **Dompdf** library for PDF report generation:
-- **Dompdf**: HTML to PDF converter with CSS 2.1 support
-- Supports complex table layouts, images, and styling
-- Enables professional attendance report generation
+### 📦 Dependencies
 
-## Installation
+- **Dompdf** – HTML to PDF converter  
+  - Supports CSS 2.1  
+  - Handles tables, images, and styled layouts  
+  - Used for generating professional attendance reports
+
+---
+
+## ⚙️ Installation & Setup
 
 ### Prerequisites
-- **XAMPP** (or similar AMP stack with Apache, PHP, MySQL)
-- **PHP 7.1 or higher**
-- **Web browser** (Chrome, Firefox, Safari, Edge)
+- XAMPP (Apache, PHP, MySQL)
+- PHP 7.1 or higher
+- Modern web browser (Chrome, Firefox, Edge)
 
-**Install XAMPP:
+### Setup Steps
 
-Download from Apache Friends
-Install and start Apache and MySQL services
-Configure the project:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Shanewaz-Aurnob/Database.git
+   ```
 
-Place the cloned folder in your XAMPP htdocs directory
-Rename or configure the folder path accordingly
-Setup Database:
+2. **Project Setup**
+   - Move the project folder to `htdocs` directory in XAMPP
+   - Rename the folder if necessary
 
-Create a new MySQL database for the project
-Import the database schema (if provided)
-Update database connection credentials in the configuration file
-Access the application:
+3. **Database Configuration**
+   - Create a new MySQL database
+   - Import the provided database schema (if available)
+   - Update database credentials in the configuration file
 
-Open your browser and navigate to: http://localhost/Database/index.php
-Or adjust the URL based on your folder name in htdocs
-Usage
-For Students
-Log in with your student credentials
-View available courses
-Submit attendance for active sessions
-Monitor your attendance percentage
-Download your attendance records if available
-For Teachers
-Log in with your teacher credentials
-Navigate to your assigned courses
-Create new class sessions
-Mark attendance for each session
-Download attendance reports in PDF format
-Review attendance statistics and trends
-For Administrators
-Log in with administrator credentials
-Create and manage courses
-Assign teachers to courses
-Manage user accounts
-View institution-wide attendance reports
-Generate comprehensive analytics
-Project Structure
-Code
+4. **Run the Application**
+   - Start Apache and MySQL from XAMPP
+   - Open your browser and navigate to:
+     ```
+     http://localhost/Database/index.php
+     ```
+   - Adjust the URL based on your project folder name
+
+---
+
+## 🚀 Usage Guide
+
+### For Students
+- Log in with student credentials
+- View enrolled courses
+- Submit attendance for active sessions
+- Monitor attendance percentage
+- Download attendance records (if enabled)
+
+### For Teachers
+- Log in with teacher credentials
+- Access assigned courses
+- Create class sessions
+- Mark and manage attendance
+- Download PDF attendance reports
+- Analyze attendance trends
+
+### For Administrators
+- Log in with administrator credentials
+- Manage courses and users
+- Assign teachers to courses
+- View institution-wide attendance data
+- Generate comprehensive reports
+
+---
+
+## 🗂 Project Structure
+
+```
 Database/
 ├── index.php                 # Main entry point
 ├── config/                   # Configuration files
@@ -107,43 +130,56 @@ Database/
 ├── pages/                    # Application pages
 ├── assets/                   # CSS, JavaScript, images
 ├── dompdf/                   # PDF generation library
-├── database/                 # Database schema and migrations
-└── README.md                 # This file
-Previous Version Information
-Original Project Name: CUSAS (Class Attendance System)
+├── database/                 # Database schema & migrations
+└── README.md                 # Project documentation
+```
 
-Original Repository: https://github.com/aurnob101/CUSAS
-Previous Implementation: Web-based attendance management system
-Base Technologies: PHP, HTML/CSS, JavaScript
-Previous Folder: cusas
-Contributing
-This project was developed collaboratively by:
+---
 
-Shanewaz Aurnob - Lead Developer
-Raisa Nuzhat - Database Design & Documentation
-Ratri Barua - Frontend Development
-Ramisa Zahara Matin - Testing & QA
-Future Enhancements
- Mobile application for iOS and Android
- Biometric attendance integration
- Email notifications for attendance alerts
- Advanced analytics and data visualization
- API for third-party integrations
- Multi-language support
- SMS notifications
- QR code-based attendance
-Known Limitations
-Current PDF generation has some layout constraints (inherited from Dompdf)
-CSS Flexbox and Grid layouts have limited support in PDF reports
-Large file uploads may require server configuration adjustments
-License
-This project is part of educational coursework and is shared for reference purposes.
+## 🕘 Previous Version Information
 
-Support & Contact
-For questions, issues, or contributions, please contact the development team or create an issue in the repository.**
+- **Original Project Name:** CUSAS (Class Attendance System)
+- **Original Repository:** https://github.com/aurnob101/CUSAS
+- **Base Technologies:** PHP, HTML/CSS, JavaScript
+- **Original Folder Name:** cusas
 
-### Setup Steps
+---
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Shanewaz-Aurnob/Database.git
+## 👥 Contributors
+
+- **Shanewaz Aurnob** — Lead Developer
+- **Raisa Nuzhat** — Database Design & Documentation
+- **Ratri Barua** — Frontend Development
+- **Ramisa Zahara Matin** — Testing & QA
+
+---
+
+## 🔮 Future Enhancements
+
+- Mobile application (Android & iOS)
+- QR code-based attendance system
+- Biometric attendance integration
+- Email & SMS notifications
+- Advanced analytics and data visualization
+- REST API for third-party integration
+- Multi-language support
+
+---
+
+## ⚠️ Known Limitations
+
+- PDF layout constraints due to Dompdf limitations
+- Limited support for CSS Flexbox and Grid in PDFs
+- Large file uploads may require server configuration tuning
+
+---
+
+## 📄 License
+
+This project was developed as part of educational coursework and is shared for **academic and reference purposes**.
+
+---
+
+## 📬 Support & Contact
+
+For issues, questions, or contributions, please open an issue in the repository or contact the development team.
